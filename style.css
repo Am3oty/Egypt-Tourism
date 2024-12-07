@@ -1,0 +1,30 @@
+div {
+  border: 6px outset red;
+  margin: 4px;
+  padding: 7px;
+  border-radius: 40px;
+}
+h1 {
+  text-align: center;
+}
+#Destinations {
+  border-color: blueviolet;
+}
+.City {
+  border-color: green;
+}
+
+.ThingsToDo {
+  border-color: blue;
+}
+
+.DayPlans {
+  border-color: brown;
+}
+
+#Climate {
+  border-color: aqua;
+}
+.Season {
+  border-color: rgb(91, 128, 196);
+}
