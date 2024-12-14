@@ -1,11 +1,12 @@
-body{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1vw;
+  background-color: blanchedalmond;
 }
 div {
-  border: 6px outset red;
-  margin: 5px;
-  padding: 8px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
   border-radius: 40px;
 }
 h1 {
@@ -13,37 +14,28 @@ h1 {
   font-style: italic;
   font-variant: small-caps;
   letter-spacing: -1px;
-}
-#Destinations {
-  border-color: blueviolet;
-}
-.City {
-  border-color: green;
+  position: sticky;
+  top: 0;
+  background-color: blanchedalmond;
 }
 
-.ThingsToDo {
-  border-color: blue;
-}
-
-.DayPlans {
-  border-color: brown;
-}
-
-#Climate {
-  border-color: aqua;
-}
-.Season {
-  border-color: rgb(91, 128, 196);
-}
-.SeasonHeading{
+.SeasonHeading {
   font-style: italic;
 }
-.CityHeading{
+.CityHeading {
   text-decoration: underline;
-  text-decoration-color: rgb(5, 82, 56) ;
-  text-decoration-style:double ;
+  text-decoration-color: rgb(5, 82, 56);
+  text-decoration-style: double;
   font-style: italic;
 }
-p{
+p {
   line-height: 10px;
+}
+
+p:hover {
+  color: blueviolet;
+}
+
+::selection {
+  background-color: aqua;
 }
