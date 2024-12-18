@@ -4,10 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Destinations</title>
-    <link rel="stylesheet" href="list.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      ul {
+        list-style-type: none;
+      }
+      .Leter {
+        color: green;
+      }
+      .state {
+        cursor: default;
+        margin: 10px;
+        padding: 10px;
+        background-color: transparent;
+        display: inline-block;
+        color: black;
+        border: transparent outset 5px;
+        transition: background-color 0.5s, color 0.5s, border-left 0.5s;
+      }
+
+      .state:hover {
+        background-color: white;
+        color: green;
+        border-left: green outset 5px;
+      }
+      .Letter {
+        float: none;
+      }
+
+      h1 {
+        margin: 10px 10px 60px 40px;
+        padding: 10px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 70px;
+        font-variant: small-caps;
+        letter-spacing: -2px;
+        word-spacing: 50px;
+        text-shadow: 2px 5px 20px green;
+        color: black;
+      }
+    </style>
   </head>
 
   <body>
+    <div id="nav">
+      <div class="prandname">Egypt Tourism</div>
+      <ul class="navbar">
+        <li><a class="navelement" href="index.html">Home</a></li>
+        <li><a class="navelement" href="states.html">States</a></li>
+        <li>
+          <a class="navelement" href="destinations.html"
+            >Popular Destinations</a
+          >
+        </li>
+      </ul>
+    </div>
     <h1>Popular Destinations</h1>
     <ul class="main">
       <li class="Leter">

@@ -3,38 +3,47 @@ body {
     sans-serif;
   font-size: 1vw;
   word-wrap: break-word;
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
 }
 #nav {
-  box-sizing: border-box;
-  height: 70px;
-  margin: -8px;
-  padding: 10px;
-  background-color: rgb(135, 186, 59);
+  height: 60px;
+  background-color: #35b135;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 .prandname {
+  width: 30%;
   font-style: italic;
   font-variant: small-caps;
   letter-spacing: -1px;
   box-sizing: border-box;
   float: left;
-  margin-top: -10px;
-  margin-left: 20px;
-  margin-right: 30px;
-  color: white;
+  padding: 15px;
+  margin-top: -6px;
+  color: #ecebeb;
+  font-weight: bold;
   word-spacing: 5px;
-  text-align: center;
   text-shadow: 1px 1px 2px black;
+  font-size: xx-large;
+  cursor: default;
+}
+.prandname::selection {
+  color: transparent;
 }
 .navbar {
   list-style-type: none;
+  width: 70%;
+  float: left;
 }
-.navelement {
-  height: 68px;
+.navelement,
+.navelement:visited {
   box-sizing: border-box;
-  margin-top: -22px;
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-top: 10px;
   text-decoration: none;
   float: left;
   font-style: italic;
@@ -42,57 +51,16 @@ body {
   box-sizing: border-box;
   font-size: 17px;
   color: whitesmoke;
-  text-align: center;
+  border: transparent solid 2px;
+  margin-right: 30px;
   text-shadow: 1px 1px 2px black;
   border: transparent outset 2px;
   border-width: 10px;
-  transition: text-shadow 0.5s;
-}
-.navelement:visited {
-  height: 68px;
-  box-sizing: border-box;
-  margin-top: -22px;
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-top: 10px;
-  text-decoration: none;
-  float: left;
-  font-style: italic;
-  font-variant: small-caps;
-  box-sizing: border-box;
-  font-size: 17px;
-  color: whitesmoke;
-  text-align: center;
-  text-shadow: 1px 1px 2px black;
-  border: transparent solid 2px;
-  border-width: 10px;
-  transition: text-shadow 1s, transform 1s;
+  border-radius: 20px;
+  margin-top: -2px;
+  transition: text-shadow 0.4s, background-color 0.4s;
 }
 .navelement:hover {
   text-shadow: 4px 4px 8px black;
-  transform: scale(1.6);
-}
-
-.SeasonHeading {
-  font-style: italic;
-}
-.CityHeading {
-  text-decoration: underline;
-  text-decoration-color: brown;
-  text-decoration-style: double;
-  font-style: italic;
-}
-p {
-  line-height: 10px;
-}
-
-p:hover {
-  color: brown;
-}
-
-::selection {
-  background-color: blanchedalmond;
-}
-.Season {
-  overflow: scroll;
+  background-color: #059205;
 }
