@@ -1,0 +1,13 @@
+.SignUpBox {
+  border: 2px solid black;
+  width: 80%;
+  float: left;
+  margin-top: 11px;
+  height: 500px;
+  padding: 0px;
+}
+.BoxHeader {
+  margin: 0px;
+  background-color: gray;
+  display: inline-block;
+}
