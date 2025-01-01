@@ -31,20 +31,68 @@
         <li><a class="navelement" href="register.html">Register</a></li>
       </ul>
     </div>
-    <div class="sidebar">
-      <ul>
-        <li><a class="sidebarelement" href="index.html">Home</a></li>
-        <li><a class="sidebarelement" href="states.html">States</a></li>
-        <li>
-          <a class="sidebarelement" href="destinations.html"
-            >Popular Destinations</a
-          >
-        </li>
-      </ul>
-    </div>
     <div class="SignUpBox">
-      <div class="BoxHeader"><h2>Sign Up</h2></div>
-      <div class="SignUpForm"></div>
+      <div class="BoxHeader">
+        <h2>Register</h2>
+      </div>
+      <div class="SignUpForm">
+        <form>
+          <div class="form-elment">
+            <div class="form-label">
+              <label for="username">User Name :</label>
+            </div>
+            <div class="form-input"><input type="text" id="username" /></div>
+          </div>
+          <div class="form-elment">
+            <div class="form-label"><label for="email">Email :</label></div>
+            <div class="form-input"><input type="email" id="email" /></div>
+          </div>
+          <div class="form-elment">
+            <div class="form-label">
+              <label for="password">Password :</label>
+            </div>
+            <div class="form-input">
+              <input type="password" id="password" />
+            </div>
+          </div>
+          <div class="form-elment">
+            <div class="form-label">
+              <label for="birthdate">Birth Date :</label>
+            </div>
+            <div class="form-input">
+              <input type="date" id="birthdate" />
+            </div>
+          </div>
+          <div class="form-elment">
+            <div class="form-label">
+              <label for="resume">Resume :</label>
+            </div>
+            <div class="form-input">
+              <input type="file" id="resume" />
+            </div>
+          </div>
+          <div class="form-elment">
+            <div class="form-label">
+              <label for="linked-in">Linked in :</label>
+            </div>
+            <div class="form-input">
+              <input type="url" id="linked-in" />
+            </div>
+          </div>
+          <div class="form-elment">
+            <div class="form-label">
+              <label for="salary">Expected Salary :</label>
+            </div>
+            <div class="form-input">
+              <input type="range" min="5000" max="50000" id="salary" />
+            </div>
+          </div>
+          <div class="BoxFooter">
+            <button class="submit-btn" type="submit">Submit</button>
+            <button class="reset-btn" type="reset">Cancle</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
